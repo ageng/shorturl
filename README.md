@@ -1,5 +1,6 @@
-URL Shortener
+Simple URL Shortener
 =============
 
-This is shorturl project created by Fosslink.
-Technologies used: ﻿PHP, MySQL, JQuery, phpMyAdmin, HTML/CSS, .htaccess rules
+This is shorturl service, if you know about [bit.ly](http://bit.ly), [goo.gl](http://goo.gl) this project such as this.
+##
+Technologies used: ﻿PHP, MySQL, JQuery, phpMyAdmin, HTML/CSS, .htaccess rules.
