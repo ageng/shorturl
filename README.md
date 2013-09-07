@@ -8,6 +8,22 @@ Technologies used: ﻿PHP, MySQL, JQuery, phpMyAdmin, HTML/CSS, .htaccess rules.
 ##
 Live Demo can be found in [here](http://u.tang.la)
 
+##
+Add .htaccess rule if your web server is Apache
+
+```bash
+ReWriteEngine on
+ReWriteRule ^([a-zA-Z0-9]+)$ index.php?code=$1
+```
+
+Add nginx rewrite rule if your web server is Nginx
+
+```bash
+location / { 
+rewrite ^/([a-zA-Z0-9]+)$ /index.php?code=$1; 
+}
+```
+
 ## Contributing
 
 1. Fork it
